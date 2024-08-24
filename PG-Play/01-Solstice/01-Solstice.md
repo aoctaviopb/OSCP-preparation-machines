@@ -2,7 +2,6 @@
 
 | Name        | Solstice                      |
 | ----------- | ----------------------------- |
-| Fuente:     | Myself                        |
 | Dificultad: | Easy                          |
 | SO:         | Linux                         |
 | Tipo:       | VulnHub - OffSec Play Grounds |
