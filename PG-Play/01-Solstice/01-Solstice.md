@@ -57,7 +57,7 @@ http://192.168.203.72:54787
 - One found with a basic nmap scan and two with a scan of all ports
 
 In the first and third ones we found a just a blank page, but in the second one we found a simple web page with two hyperlinks:
-![01-Solstice](01-Solstice.png)
+![01-Solstice](00-Assets/01-Solstice.png)
 
 When we click the "Book List" link a GET query is made:
 ```shell
